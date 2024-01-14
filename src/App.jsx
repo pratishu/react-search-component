@@ -1,10 +1,8 @@
 function App() {
   return (
-    <>
-      <h1 className="text-4xl text-gray-700 font-medium">
-        React Search Component
-      </h1>
-    </>
+    <div className="font-roboto bg-background text-text min-h-screen">
+      <h1 className="text-4xl text-center">This is styled Header</h1>
+    </div>
   );
 }
 
