@@ -18,3 +18,11 @@
     --accent: #0600c2;
   }
 }
+@layer components {
+  .container {
+    @apply mx-auto px-4 sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1536px];
+  }
+  .input {
+    @apply h-20 w-full text-xl font-roboto text-left px-8 bg-blue-200/5 border-2 border-blue-400 rounded-xl text-gray-500;
+  }
+}
